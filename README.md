@@ -59,7 +59,9 @@ python run.py --model deitadapter_more --n_tasks 5 --dataset cifar10 --adapter_l
 
 # Acknowledgement
 The code format follows DER++, HAT
+
 https://github.com/aimagelab/mammoth
+
 https://github.com/joansj/hat
 
 
