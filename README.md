@@ -15,13 +15,13 @@ and save the file as ./deit_pretrained/best_checkpoint.pth
 Please install a virtual environment
 
 ```
-conda create -n mcil python=3.8 anaconda
+conda create -n more python=3.8 anaconda
 ```
 
 Activate the environment
 
 ```
-conda activate mcil
+conda activate more
 ```
 
 Please install the following packages in the environment
@@ -58,7 +58,7 @@ python run.py --model deitadapter_more --n_tasks 5 --dataset cifar10 --adapter_l
 ```
 
 # Acknowledgement
-The code format follows DER++, HAT
+The code format follows DER++ and HAT. A large chunk of the codes is a direct modiciation of DER++ and HAT, pytorch, timm, numpy, and sklearn.
 
 https://github.com/aimagelab/mammoth
 
